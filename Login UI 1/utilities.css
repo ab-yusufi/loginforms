@@ -1,0 +1,57 @@
+/* Button */
+.btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  outline: none;
+  border-radius: 10px;
+  background-color: var(--primary-light-color);
+  color: #fff;
+  width: 100%;
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+}
+
+.btn:active {
+  background-color: var(--primary-light-color);
+}
+
+/* Card */
+.card {
+  text-align: center;
+  padding: 20px 50px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #fff;
+  color: #333;
+  transition: 1s;
+}
+
+/* Primary Text  */
+.text-primary {
+  color: var(--primary-light-color);
+}
+
+/* Border Bottom */
+.bb {
+  border-bottom: 2px solid #fff;
+}
+
+/* FlexBox */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+/* Headings */
+h1,
+h2 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 10px 0;
+}
